@@ -1,0 +1,17 @@
+{
+  "name": "abacus-markets",
+  "version": "1.0.0",
+  "description": "Abacus Markets \u2014 a dependency-free static site that maps the crypto market by sector with live data",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "fetch": "node scripts/fetch-data.js",
+    "dev": "npm run build && node scripts/serve.js",
+    "test": "node scripts/build.js && node scripts/check.js",
+    "indexnow": "node scripts/indexnow.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
